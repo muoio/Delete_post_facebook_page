@@ -1,0 +1,115 @@
+https://sales.coinlist.co/tribal-option-1/onboarding
+Get Starter: .js-get_started_cta
+
+https://sales.coinlist.co/tribal-option-1/new
+Continue with warm startup: .js-submit_existing_entity
+
+https://sales.coinlist.co/tribal-option-1/ram-svarup/residence
+Select country: .js-country         ----- I cormfimrm: .c-input--checkbox ---   Countinue: .js-submit
+
+https://sales.coinlist.co/tribal-option-1/ram-svarup/quiz
+
+toan bo cau hoi: querySelector('.c-form.quiz div.c-input-group').childNodes
+
+cau tra loi class : getElementsByClassName("c-label c-label--inline s-marginLeft1")
+
+if textContent.includes(answer)
+ querySelector('input').click();
+
+
+Continue: .js-submit
+
+Complete page: https://sales.coinlist.co/tribal-option-1/ram-svarup
+
+<form class="simple_form c-form quiz" action="/tribal-option-1/participants/b212191e-263b-4eab-86f7-eabb55d607e4/submit_quiz" accept-charset="UTF-8" method="post">
+	<input name="utf8" type="hidden" value="✓">
+	<input type="hidden" name="authenticity_token" value="o2RPVyuo1Mgoyl7QKHad7+8dzs4eiAdA5yFEUv178zVQhbYLhAhSYExNM1gPVeGiPfKMxG5ey5OJwqQcqIzZbw==">
+	<div class="c-input-group">
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 1. How many tokens are allocated to the Tribal sale? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_1]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_1_ffc26ee2-47b4-4b12-9fef-433b8adc6dfd">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="ffc26ee2-47b4-4b12-9fef-433b8adc6dfd" name="quiz[answer_1]" id="quiz_answer_1_ffc26ee2-47b4-4b12-9fef-433b8adc6dfd">100,000,000</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_1_4879d7c4-d731-43fc-b7df-061f539df87a">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="4879d7c4-d731-43fc-b7df-061f539df87a" name="quiz[answer_1]" id="quiz_answer_1_4879d7c4-d731-43fc-b7df-061f539df87a">64,000</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_1_d35b1940-f3b8-4820-93e2-60d0153cea60">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="d35b1940-f3b8-4820-93e2-60d0153cea60" name="quiz[answer_1]" id="quiz_answer_1_d35b1940-f3b8-4820-93e2-60d0153cea60">64,066,667</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 2. What is the sale mechanism for the Tribal sale? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_2]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_2_edd13993-6d1d-42bd-b63f-e67a55247041">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="edd13993-6d1d-42bd-b63f-e67a55247041" name="quiz[answer_2]" id="quiz_answer_2_edd13993-6d1d-42bd-b63f-e67a55247041">The earlier a user arrives in the waiting room, the more likely the user will get an allocation</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_2_ab0123b5-3456-433d-bd94-037ee24a1df5">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="ab0123b5-3456-433d-bd94-037ee24a1df5" name="quiz[answer_2]" id="quiz_answer_2_ab0123b5-3456-433d-bd94-037ee24a1df5">The earlier a user registered for the sale, the more likely the user will get an allocation</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_2_762d3d49-51f3-49f5-972f-f85abdb68aea">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="762d3d49-51f3-49f5-972f-f85abdb68aea" name="quiz[answer_2]" id="quiz_answer_2_762d3d49-51f3-49f5-972f-f85abdb68aea">Users in the waiting room for the sale will be given a random spot in the queue when the sale starts. Users who arrive after the sale starts for the sale will be placed behind those in the waiting room</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 3. What currencies are accepted for payment in the sale? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_3]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_3_4287ce32-5e0c-413b-9884-789a18a23c56">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="4287ce32-5e0c-413b-9884-789a18a23c56" name="quiz[answer_3]" id="quiz_answer_3_4287ce32-5e0c-413b-9884-789a18a23c56">BTC, ETH, DAI</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_3_53297ac0-593a-41ca-9eca-3195aec8fd71">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="53297ac0-593a-41ca-9eca-3195aec8fd71" name="quiz[answer_3]" id="quiz_answer_3_53297ac0-593a-41ca-9eca-3195aec8fd71">BTC, ETH, USDC, USDT, ALGO, SOL</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_3_d7cf0732-cef5-4c52-86f3-8b7d1a910352">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="d7cf0732-cef5-4c52-86f3-8b7d1a910352" name="quiz[answer_3]" id="quiz_answer_3_d7cf0732-cef5-4c52-86f3-8b7d1a910352">DAI, USDC, USDT</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 4. What is the price per token and max purchase for the sale? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_4]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_4_154f03d2-acf3-4cd3-a05a-48476e2e5b57">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="154f03d2-acf3-4cd3-a05a-48476e2e5b57" name="quiz[answer_4]" id="quiz_answer_4_154f03d2-acf3-4cd3-a05a-48476e2e5b57">Option 1: $50 per token, $5,000 limit. Option 2: $40 per token, $5,000 limit</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_4_3b4fc26e-7a92-4730-8b94-ad11a3c62e65">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="3b4fc26e-7a92-4730-8b94-ad11a3c62e65" name="quiz[answer_4]" id="quiz_answer_4_3b4fc26e-7a92-4730-8b94-ad11a3c62e65">Option 1: $0.55 per token, $500 limit. Option 2: $0.40 per token, $500 limit</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_4_6d2e113b-f255-4bf6-af6c-7e21aee9c6ac">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="6d2e113b-f255-4bf6-af6c-7e21aee9c6ac" name="quiz[answer_4]" id="quiz_answer_4_6d2e113b-f255-4bf6-af6c-7e21aee9c6ac">Option 1: $5 per token, $1,000 limit. Option 2: $4 per token, $1,000 limit</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 5. What will happen if someone submits a purchase but doesn't complete it? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_5]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_5_5f64de97-5f26-4383-bb6a-d7dbe748cc5b">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="5f64de97-5f26-4383-bb6a-d7dbe748cc5b" name="quiz[answer_5]" id="quiz_answer_5_5f64de97-5f26-4383-bb6a-d7dbe748cc5b">The user's purchase may be canceled and the user may be banned from future CoinList sales</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_5_daf1ab29-c73d-4346-ba66-e7eba170e017">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="daf1ab29-c73d-4346-ba66-e7eba170e017" name="quiz[answer_5]" id="quiz_answer_5_daf1ab29-c73d-4346-ba66-e7eba170e017">Nothing happens</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_5_bd75f460-55e0-4575-b664-8cec196607ab">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="bd75f460-55e0-4575-b664-8cec196607ab" name="quiz[answer_5]" id="quiz_answer_5_bd75f460-55e0-4575-b664-8cec196607ab">The user's purchase will be settled at the completed amount</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 6. Where will I be able to participate in the token sale? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_6]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_6_3b8b65f8-7c0f-432a-a89b-9684a6cf8015">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="3b8b65f8-7c0f-432a-a89b-9684a6cf8015" name="quiz[answer_6]" id="quiz_answer_6_3b8b65f8-7c0f-432a-a89b-9684a6cf8015">CoinList.co</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_6_ff24ddef-048a-4457-a624-813d803d6770">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="ff24ddef-048a-4457-a624-813d803d6770" name="quiz[answer_6]" id="quiz_answer_6_ff24ddef-048a-4457-a624-813d803d6770">Tribal.credit</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_6_cdc39a4d-0d93-4785-a89a-88206d66b197">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="cdc39a4d-0d93-4785-a89a-88206d66b197" name="quiz[answer_6]" id="quiz_answer_6_cdc39a4d-0d93-4785-a89a-88206d66b197">Telegram</label>
+			</div>
+		</div>
+		<div class="s-marginBottom1">
+			<div class="s-marginBottom1 s-marginTop1 u-fontWeight700"> 7. What happens to a user who uses bots or abuses the Queue-It system? </div>
+			<div class="c-input-group">
+				<input type="hidden" name="quiz[answer_7]" value="">
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_7_9528b5a2-3481-424c-b488-6a445ea18a4b">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="9528b5a2-3481-424c-b488-6a445ea18a4b" name="quiz[answer_7]" id="quiz_answer_7_9528b5a2-3481-424c-b488-6a445ea18a4b">Nothing happens</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_7_23996eaa-2257-44dd-a23e-f94699852aec">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="23996eaa-2257-44dd-a23e-f94699852aec" name="quiz[answer_7]" id="quiz_answer_7_23996eaa-2257-44dd-a23e-f94699852aec">The user's account will be terminated and all purchases will be canceled</label>
+				<label class="c-label c-label--inline s-marginLeft1" for="quiz_answer_7_36e23c0d-fd8a-4eda-8b83-b6420d6719e0">
+					<input class="c-input--radio c-input c-input--optional" type="radio" value="36e23c0d-fd8a-4eda-8b83-b6420d6719e0" name="quiz[answer_7]" id="quiz_answer_7_36e23c0d-fd8a-4eda-8b83-b6420d6719e0">The user will be able to purchase tokens elsewhere</label>
+			</div>
+		</div>
+	</div>
+	<div class="s-marginTop1 u-colorRed u-hidden js-errors"></div>
+	<div class="s-marginTop2"> <a class="js-submit c-button c-button--large ht" href="javascript:void(0)">Continue</a> </div>
+</form>

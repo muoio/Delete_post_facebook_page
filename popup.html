@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <body background="images/bg.jpg">
+
+
+    <style>
+      button {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>      
+    <div>
+      
+      <div>
+        <label class='label_keywords'>Country</label>
+        <input id='country' class='nice_input'></input>
+      </div>
+
+      <div>
+        <label class='label_keywords' >Danh sách links và câu trả lời</label>
+        <textarea spellcheck="false" class='answers' id='links_answers' ></textarea>
+      </div>
+
+      <div style="padding-top: 20px;">
+        <label for="period" style="color: aliceblue;font-size: 20px; ">Thời gian chờ trước khi chạy</label>
+        <input type="number" id='wait_time' class='nice_input wait_time' min="0">
+        <label style="color: aliceblue;font-size: 20px; ">phút</label>
+      </div>
+
+      <div style="padding-top: 5px;">
+        <button id='start' style="background-color:darkgreen"  class='set_control'>START</button>
+        <button id='stop' style="background-color:rgb(139, 67, 0)"  class='set_control'>STOP</button>
+      </div>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
