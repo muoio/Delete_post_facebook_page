@@ -19,7 +19,8 @@
       {
         "js": ["js/content.js"],
         "matches":["https://www.facebook.com/*/publishing_tools/*"],  
-        "run_at": "document_end"
+        "run_at": "document_end",
+        "all_frames":true
       }
     ],
     "host_permissions": [
