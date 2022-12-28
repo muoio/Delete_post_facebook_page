@@ -18,13 +18,15 @@ async function wait_for_element(selector){
 }
 async function click_to_end(){
     new Promise(resolve=>{
+        let chain = 0;
         let click_next = setInterval(function(){
             next_page_btn.click();
             if (next_page_btn.parentElement.disabled) chain++;
             else chain = 0;
             if(chain > 40) {
                 clearInterval(click_next);
-                alert("end");
+                //alert("end");
+                console.log("end");
                 resolve(true);
                 return true;
             }
@@ -32,12 +34,12 @@ async function click_to_end(){
     });
 }
 
-async function delete_post(){
+async function delete_post(click_prev=true){
     //return new Promise(async resolve=>{
         prev_page_btn = document.querySelectorAll("[type='submit'][value='1'] i")[2];
         next_page_btn  = document.querySelectorAll("[type='submit'][value='1'] i")[3];
 
-        prev_page_btn.click();
+        if (click_prev) prev_page_btn.click();
         await sleep(100);
 
         let checkboxes = document.querySelectorAll('[role="checkbox"]');
@@ -59,6 +61,7 @@ async function delete_post(){
         let confirm = confirms[confirms.length-1];
         confirm.click();
         if (prev_page_btn.disabled) status--;
+        return true;
     //     resolve(true);
     //     return true;
     // });
@@ -67,6 +70,7 @@ async function delete_post(){
 async function process(){
     await click_to_end();
     //while(!prev_page_btn.disabled)
+    await delete_post(click_prev=false);
     let loop_del = setInterval(function(){
         if (status) delete_post();
         else clearInterval(loop_del);
